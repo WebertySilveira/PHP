@@ -1,0 +1,17 @@
+{
+    "name": "weber/bin2dec",
+    "autoload": {
+        "psr-4": {
+            "Weber\\Bin2dec\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "webertysilveira",
+            "email": "weberty.silveira@indexdigital.com.br"
+        }
+    ],
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.1"
+    }
+}
