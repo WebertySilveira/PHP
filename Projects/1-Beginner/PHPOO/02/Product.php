@@ -2,7 +2,7 @@
 
 class Product
 {
-    private $description, $type, $price, $tax;
+    private $description, $price, $tax;
 
     public function getDescription()
     {
@@ -13,16 +13,9 @@ class Product
         $this->description = $description;
     }
 
-    public function getType()
-    {
-        return $this->type;
-    }
     public function setType(Type $type)
     {
-        $this->type = $type;
-        $percent = $this->type->getPercent();
-        
-        $this->setTax($this->price * $percent/100);
+        $this->setTax($this->price * $type->getPercent()/100);
     }
 
     public function getPrice()
