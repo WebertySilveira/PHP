@@ -1,5 +1,7 @@
 <?php 
 
+namespace Src\Employee;
+
 class Employee
 {
     private $jobCode, $gender, $workedHours;

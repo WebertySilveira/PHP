@@ -1,5 +1,7 @@
 <?php
 
+namespace Src\Product;
+
 class Product
 {
     private $code, $description, $price, $percentual, $moreExpensive;

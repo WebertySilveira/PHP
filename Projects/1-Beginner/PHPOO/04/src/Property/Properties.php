@@ -1,5 +1,7 @@
 <?php
 
+namespace Src\Property;
+
 class Properties 
 {
     private $owner, $sportsCourt, $batch, $area, $value, $situation, $commission;

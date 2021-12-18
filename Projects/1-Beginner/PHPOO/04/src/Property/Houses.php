@@ -1,8 +1,8 @@
 <?php
 
-require_once "Properties.php";
+namespace Src\Property;
 
-class Land Extends Properties
+class Houses Extends Properties
 {
     private $iptu;
 

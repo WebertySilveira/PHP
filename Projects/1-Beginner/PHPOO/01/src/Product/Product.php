@@ -1,8 +1,10 @@
 <?php
 
+namespace Src\Product;
+
 class Product
 {
-    private $description, $price, $tax;
+    private $description, $type, $price, $tax;
 
     public function getDescription()
     {
@@ -13,9 +15,16 @@ class Product
         $this->description = $description;
     }
 
+    public function getType()
+    {
+        return $this->type;
+    }
     public function setType(Type $type)
     {
-        $this->setTax($this->price * $type->getPercent()/100);
+        $this->type = $type;
+        $percent = $this->type->getPercent();
+        
+        $this->setTax($this->price * $percent/100);
     }
 
     public function getPrice()

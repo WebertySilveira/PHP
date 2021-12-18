@@ -1,5 +1,7 @@
 <?php
 
+namespace Src\Employee;
+
 class Occupation
 {
     private $jobNumber, $hourlyValue;

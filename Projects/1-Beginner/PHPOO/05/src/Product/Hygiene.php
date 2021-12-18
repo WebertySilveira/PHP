@@ -1,5 +1,7 @@
 <?php 
 
+namespace Src\Product;
+
 class Hygiene extends Product
 {
     

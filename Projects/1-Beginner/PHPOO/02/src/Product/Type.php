@@ -1,4 +1,7 @@
 <?php
+
+namespace Src\Product;
+
 class Type{
     public $code, $percent;
 

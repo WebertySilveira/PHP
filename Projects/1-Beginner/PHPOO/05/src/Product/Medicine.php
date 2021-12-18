@@ -1,5 +1,7 @@
 <?php 
 
+namespace Src\Product;
+
 class Medicine extends Product
 {
     private $due;

@@ -1,0 +1,17 @@
+{
+    "name": "weber/01",
+    "authors": [
+        {
+            "name": "WebertySilveira",
+            "email": "weberty.silveira.sousa@gmail.com"
+        }
+    ],
+    "config": {
+        "vendor-lib": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    }
+}
