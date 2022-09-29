@@ -1,0 +1,12 @@
+{
+    "name": "weberty/algoritmos",
+    "config": {
+        "vendor-lib": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "require": {}
+}
